@@ -44,7 +44,7 @@ if (typeof jQuery === 'undefined') {
       return false // explicit for ie8 (  ._.)
     }
   
-    // http://blog.alexmaccaw.com/css-transitions
+    // this function is a call back function
     $.fn.emulateTransitionEnd = function (duration) {
       var called = false
       var $el = this

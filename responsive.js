@@ -1,3 +1,4 @@
+// this javascript used to create the responsiveness of the portfolio
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
